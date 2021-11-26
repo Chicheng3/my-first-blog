@@ -7,11 +7,13 @@
         <header>
         <h1><a href="/">Willkommen zu meinem Blog</a></h1>
         </header>
+    {% for post in posts %}
         <article>
-            <time>published: 26.11.2021</time>
-            <h2><a href="">My first post</a></h2>
-            <p>es ist zwar sehr anstrengend, python und Django zu lernen, aber ich werde es def. schaffen</p>
+            <time>published: {{ post.published_date }}</time>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>{{ post.text | linebreaksbr}}</p>
         </article>
+    {% endfor %}
 
        
     </body>
