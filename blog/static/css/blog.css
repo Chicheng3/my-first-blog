@@ -1,24 +1,15 @@
-h1 a, h2 a{
-    color: #0DC682;
-    font-family: 'Lobster';
-}
-
-body {
-    padding-left: 15px
-}
-
 .page-header {
-    background-color: #C25100;
+    background-color: #3013b1;
     margin-top: 0;
-    margin-bottom: 60px;
-    padding: 20px 20px 20px 60px;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
 }
 
 .page-header h1,
 .page-header h1 a,
 .page-header h1 a:visited,
 .page-header h1 a:active {
-    color: #0DC682;
+    color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -46,7 +37,7 @@ h4 {
 .top-menu,
 .top-menu:hover,
 .top-menu:visited {
-    color: #10353b;
+    color: #ffffff;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
@@ -58,7 +49,7 @@ h4 {
 
 .post h2 a,
 .post h2 a:visited {
-    color: #10b8aa;
+    color: #000000;
 }
 
 .post > .date,
@@ -68,12 +59,12 @@ h4 {
 
 .btn-default,
 .btn-default:visited {
-    color: #2239bd;
-    background: #10353b;
+    color: #C25100;
+    background: none;
     border-color: #C25100;
 }
 
 .btn-default:hover {
     color: #FFFFFF;
-    background-color: #7a4219;
+    background-color: #C25100;
 }
